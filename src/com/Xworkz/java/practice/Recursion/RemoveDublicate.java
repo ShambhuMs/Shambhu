@@ -4,7 +4,6 @@ public class RemoveDublicate {
    public static boolean[] arr=new boolean[26];
     public static void findDub(String s,int idx,String newStr){
        if(idx==s.length()){
-
            System.out.println(newStr);
            return;
        }

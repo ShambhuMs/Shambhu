@@ -1,9 +1,8 @@
 package com.Xworkz.java.practice.Recursion;
 
-
+// this is not working......
 
 public class ArmStrong {
-
     public static int count(int n){
         int count=0;
      while (n!=0){
@@ -21,16 +20,17 @@ public class ArmStrong {
     }
     public static void main(String[] args) { // 1+5+3===1^3+5^3+3^3==153
         int n=153;
-
         int sum=0;
-        int rem=0;
+        int r=0;
         int n1=n;
-       while (n!=0){
-           rem=n%10;
-           sum=sum+calculate(rem,n);
-           n=n/10;
+        int s=0;
+       while (n>0){
+           r=n%10;
+           s=count(n);
+           sum=sum+calculate(r,s);
+
        }
-if(n==n1){
+if(n1==sum){
     System.out.println("yes");
 }
 else {

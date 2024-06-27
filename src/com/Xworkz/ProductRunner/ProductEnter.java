@@ -61,6 +61,7 @@ public class ProductEnter {
         metroContractor.propertyTax();
         metroContractor.taxation();
         metroContractor.wasteManagement();
-
+//
+        BDARule.shambhu(10);
     }
 }

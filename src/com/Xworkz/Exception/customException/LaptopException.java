@@ -1,6 +1,4 @@
-package com.xworkz.Exception;
-
-import java.awt.print.PrinterException;
+package com.Xworkz.Exception.customException;
 
 public class LaptopException extends Exception {
     public LaptopException() throws LaptopException {

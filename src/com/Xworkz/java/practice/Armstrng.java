@@ -2,7 +2,7 @@ package com.Xworkz.java.practice;
 
 public class Armstrng {
     public static void main(String[] args) {
-        int num=123;
+        int num=153;
         int r;
         int sum=0;
         int temp=num;

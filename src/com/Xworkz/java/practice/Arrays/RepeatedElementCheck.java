@@ -10,7 +10,7 @@ public class RepeatedElementCheck {
                 for (int j = i + 1; j < a.length; j++) {
                     if (a[i] == a[j]) {
                         count++;
-                        a[j] = -1;//dupicate element as counted.
+                        a[j] = -1;//duplicate element as counted.
                     }
                 }
 

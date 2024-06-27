@@ -1,4 +1,4 @@
-package com.xworkz.abs;
+package com.Xworkz.abstr.Runner;
 
 public class MainEnter {
     public static void main(String[] args) {

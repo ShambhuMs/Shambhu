@@ -8,7 +8,7 @@ public class SplitbySpace {
     }*/
 
     public static void main(String[] args) {
-        String s="Hello how are  you";
+        String s="Hello how are you";
         String[] w=s.split(" ");
         for (int i=0;i< w.length;i++) {
 

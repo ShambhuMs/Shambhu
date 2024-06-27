@@ -12,7 +12,7 @@ public class FindDuplicateChar {
             if(current!=-1) {
                 for (int j = i + 1; j < str.length(); j++) {
                         char jc=str.charAt(j);
-                         if(current==str.charAt(j)){
+                         if(current==jc){
                              count++;
                              jc=(char)-1;
                          }

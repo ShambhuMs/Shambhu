@@ -1,4 +1,4 @@
-package com.xworkz.abs;
+package com.Xworkz.abstr.Runner;
 
 public interface Temple {
     final String TempleName="Ragi gudda";

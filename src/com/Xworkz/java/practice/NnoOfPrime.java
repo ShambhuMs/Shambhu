@@ -9,6 +9,7 @@ public class NnoOfPrime {
                 count++;
             }
         }
+
         return count==2;
     }
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class NnoOfPrime {
         int count=0;
         for (int i = 0; i <= 50; i++) {
             if (isPrime(i) == true) {
-                if(count<10) {
+                if(count<n) {
                     System.out.println(i);
                     count++;
                 }
